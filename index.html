@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skincare Landing Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <style>
+     footer {
+      position: relative;
+      overflow: hidden;
+    }
+  
+  
+  </style>
+</head>
+<body class="bg-[#fefff4]">
+
+  <!-- Navbar -->
+<section class="bg-[#EFF5E1] w-full overflow-hidden">
+  <!-- Header -->
+  <header class="w-full">
+    <nav class="max-w-7xl mx-auto px-6 pt-5 flex items-center justify-between h-16">
+      <div class="flex-shrink-0 font-extrabold text-lg">
+        <a href="#" class="font-bold text-[2.4rem] md:text-[1.4rem] select-none">SKINCARE</a>
+      </div>
+      <div class="hidden sm:flex space-x-8 text-xs sm:text-sm">
+        <a href="#" class="hover:text-gray-900 transition">All Products</a>
+        <a href="#" class="hover:text-gray-900 transition">Serum</a>
+        <a href="#" class="hover:text-gray-900 transition">Sunscreen</a>
+        <a href="#" class="hover:text-gray-900 transition">Bundle</a>
+      </div>
+      <div class="flex items-center space-x-5">
+        <button aria-label="Cart" class="w-5 h-5 bg-[#FEFFF4] bg-[url('/media/SVG/bag-5-svgrepo-com.svg')] bg-no-repeat bg-center bg-[length:13px_13px] rounded-full hover:text-gray-900 transition"></button>
+        <span>Cart (1)</span>
+        <button aria-label="Search" class="w-5 h-5 bg-[#FEFFF4] bg-[url('/media/SVG/heart-svgrepo-com.svg')] bg-no-repeat bg-center bg-[length:13px_13px] rounded-full hover:text-gray-900 transition"></button>
+        <button aria-label="User" class="w-5 h-5 bg-[#FEFFF4] bg-[url('/media/SVG/user-svgrepo-com.svg')] bg-no-repeat bg-center bg-[length:13px_13px] rounded-full hover:text-gray-900 transition"></button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Grid -->
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 px-6 pt-20 z-10">
+    <div class="flex flex-col justify-center items-start space-y-4">
+      <p class="max-w-xs text-left pl-[40px]">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        Transform your skincare <br> routine with premium products that <br>
+        restore, protect, and enhance your <br> natural glow every day.
+      </p>
+    </div>
+    <div class="flex items-center justify-center text-center md:text-left">
+      <h1 class="text-7xl sm:text-7xl font-bold leading-tight">
+        GLOW <br />NATUR <span>- <br></span> ALLY
+      </h1>
+    </div>
+    <div class="flex justify-center md:justify-end">
+      <img src="/img2.jpg" alt="Product" class="w-28 h-40 mr-10 mt-10 sm:w-36 md:w-40 rounded-xl shadow-md" />
+    </div>
+  </div>
+
+  <!-- Skincare Image & Shop Section -->
+  <div class="w-full max-w-8xl mx-auto mt-12 px-4 pb-12 relative flex flex-col items-center justify-center">
+
+    <!-- Image Card -->
+    <div class="w-full flex flex-col md:flex-row items-center justify-center gap-4 relative">
+      <div class="relative w-[450px] max-w-md lg:max-w-xl xl:max-w-2xl h-[400px] md:h-[500px] lg:h-[500px] rounded-3xl shadow-xl overflow-hidden z-10 bg-cover bg-center" style="background-image: url('/img1.jpg');">
+        <!-- Testimonial box -->
+        <div class="absolute bottom-[10px] left-1/2 -translate-x-1/2 shadow-md flex items-center justify-between w-full max-w-[310px] bg-[#FEFFF4] px-4 py-2 rounded-full">
+          <div class="flex items-center justify-center w-[82px] h-[52px] border-2 border-dotted border-black rounded-full overflow-hidden">
+            <img src="/img2.jpg" alt="User avatar" class="w-full h-full object-cover rounded-full">
+          </div>
+          <p class="text-xs sm:text-sm text-gray-700 leading-tight ml-3">
+            While giving you an invigorating cleansing experience.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SKINCARE Text (sm & md) -->
+    <div class="block lg:hidden mt-10 w-full text-center z-0">
+      <span class="block text-[#35433E] font-extrabold uppercase leading-[1.1] tracking-wide text-[80px] sm:text-[100px] md:text-[140px] whitespace-nowrap">
+        SKINCARE
+      </span>
+    </div>
+
+    <!-- Shop Now Button (sm & md) -->
+    <div class="block lg:hidden mt-6">
+      <button class="bg-gray-800 text-white px-6 py-3 text-sm sm:text-base rounded-full font-normal shadow-lg hover:bg-gray-700 transition-colors">
+        Shop Now
+      </button>
+    </div>
+
+    <!-- Shop Now Button (large only) -->
+    <button class="hidden lg:block absolute top-1/3 left-[70px] -translate-y-[40%] z-25 bg-gray-800 text-white px-5 py-3 rounded-full font-normal shadow-lg hover:bg-gray-700 transition-colors text-sm sm:text-base">
+      Shop Now
+    </button>
+
+    <!-- SKINCARE background text (large only) -->
+    <div class="hidden lg:block absolute bottom-[20px] left-0 w-full text-left text-[#35433E] opacity-100 z-0 font-extrabold uppercase leading-[1] tracking-[.05em] overflow-hidden">
+      <span class="block text-[#35433E] font-bold text-[270px] whitespace-nowrap">
+        SKINCARE
+      </span>
+    </div>
+  </div>
+</section>
+
+<section class="min-h-screen bg-[#fefff4] flex items-start pt-12 px-4">
+  <p class="w-full max-w-6xl mx-auto text-left font-normal tracking-normal 
+             text-base sm:text-lg md:text-xl lg:text-4xl 
+             leading-relaxed sm:leading-loose md:leading-[2.5] lg:leading-[1.7] overflow-hidden">
+    Experience the ultimate in skincare with our expertly formulated products,
+    crafted to nourish, protect, and rejuvenate your skin. Combining the finest
+    natural ingredients with 
+    <span class="lg:opacity-50">
+      advanced science, our collection ensures every skin type can achieve a radiant, healthy glow.
+      Embrace your beauty with confidence every day. Experience the ultimate in skincare with our 
+      expertly formulated products, crafted to nourish, protect, and rejuvenate your skin.
+    </span>
+  </p>
+</section>
+
+
+
+
+
+
+<section class="w-full bg-[#FEFFF4] shadow-xl overflow-hidden flex flex-col md:flex-row flex-wrap md:flex-nowrap">
+
+  <!-- Left Section -->
+  <div class="w-full md:w-1/2 p-6 sm:p-10 lg:pt-10 lg:pb-14 lg:pl-10 lg:pr-14 flex flex-col bg-[#FEFFF4]">
+    <!-- Button -->
+    <button class="flex items-center border border-[#35433E] rounded-full mt-[-40px] px-4 py-2 text-sm font-medium text-[#35433E] shadow-md self-start bg-[#FEFFF4]">
+      <span class="w-3.5 h-3.5 bg-[#35433E] rounded-full mr-2"></span>
+      Why Our Products
+    </button>
+
+    <!-- Heading -->
+    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-normal leading-tight mb-6 text-[#35433E] mt-[60px]">
+      YOUR SKIN DESERVES <br> THE BEST CARE.
+    </h1>
+
+    <!-- Paragraph -->
+    <p class="text-gray-600 text-sm mb-8 pr-4">
+      Discover a curated collection of skincare products designed to rejuvenate, protect, and pamper your skin. Explore our range crafted with love, backed by science, and inspired by nature.
+    </p>
+
+    <!-- Features -->
+    <div class="space-y-8">
+      <!-- Feature 1 -->
+      <div class="flex items-start gap-4">
+        <span class="text-[40px] ml-[5px] font-normal bg-gradient-to-b from-[#111413] to-[#fefef9] text-transparent bg-clip-text leading-none">01</span>
+        <div class="ml-[5px]">
+          <h2 class="text-5xl font-normal text-[#35433E] mb-1">Bio Ingredients</h2>
+          <p class="text-gray-600 text-sm max-w-xs mt-[25px]">Get naturally beautiful and transform with our bio ingredients creams for healthy, radiant skin.</p>
+        </div>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="flex items-start gap-4">
+        <span class="text-[40px] font-normal bg-gradient-to-b from-[#111413] to-[#fefef9] text-transparent bg-clip-text leading-none">02</span>
+        <div>
+          <h2 class="text-5xl font-normal text-[#35433E] mb-1">Everything Natural</h2>
+          <p class="text-gray-600 text-sm max-w-xs mt-[25px]">Pure ingredients for pure skin. The perfect solution for your skincare needs.</p>
+        </div>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="flex items-start gap-4">
+        <span class="text-[40px] font-normal bg-gradient-to-b from-[#111413] to-[#fefef9] text-transparent bg-clip-text leading-none">03</span>
+        <div>
+          <h2 class="text-5xl font-normal text-[#35433E] mb-1">Gentle & Effective</h2>
+          <p class="text-gray-600 text-sm max-w-xs mt-[25px]">Enjoy skincare that works with your skin — gentle yet effective for everyday use.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right Section -->
+  <div class="relative w-full md:w-1/2 min-h-[400px] md:min-h-full bg-gray-100 flex items-end justify-start rounded-3xl overflow-hidden p-6 md:p-0">
+    <!-- Main Image -->
+    <img src="/img4.png"
+         alt="Woman applying eye patches"
+         class="w-full h-full object-cover absolute inset-0"
+         onerror="this.onerror=null; this.src='https://placehold.co/800x800/FFFFFF/333333?text=Image+Load+Error';">
+
+    <!-- Badge -->
+    <div class="absolute bottom-[10px] left-1/2 -translate-x-1/2 shadow-md flex items-center justify-between w-full max-w-[310px] bg-[#FEFFF4] px-4 py-2 rounded-full">
+      <div class="flex items-center justify-center w-[66px] h-[62px] border-2 border-dotted border-black rounded-full overflow-hidden">
+        <img src="/media/SVG/award-svgrepo-com.svg"
+             alt="User avatar"
+             class="w-full h-full object-cover rounded-full">
+      </div>
+      <p class="text-xs sm:text-sm text-gray-700 leading-tight ml-3">
+        Best Skin Care Product Award Wining
+      </p>
+    </div>
+
+    <!-- Bottom Text -->
+    <div class="absolute left-6 text-white text-sm opacity-90 hidden md:block z-10">SINCE 2001</div>
+    <div class="absolute right-6 text-white text-sm opacity-90 hidden md:block z-10">LEARN MORE</div>
+  </div>
+
+</section>
+
+<!--------------------done till here react-->
+<section class="w-full flex flex-col items-center bg-[#fefff4] py-20 px-4">
+
+  <!-- Heading Row -->
+  <div class="flex flex-col lg:flex-row justify-between items-start lg:items-center w-full max-w-7xl mb-10 gap-6 relative">
+
+    <!-- Label aligned left on small/medium -->
+    <div class="w-full lg:w-auto text-left">
+      <button class="flex items-center border border-[#35433E] rounded-full px-4 py-2 text-sm font-medium text-[#35433E] shadow-md bg-[#FEFFF4]">
+        <span class="w-3.5 h-3.5 bg-[#35433E] rounded-full mr-2"></span>
+        Best Selling Products
+      </button>
+    </div>
+
+    <!-- Heading aligned left on small/medium -->
+    <h1 class="w-full lg:w-auto text-left lg:text-center text-3xl sm:text-4xl md:text-5xl font-normal text-[#35433E] leading-tight flex-1 px-4">
+      Skincare That Brings Out <br> Your Natural Radiance
+    </h1>
+
+    <!-- Arrows for large screen -->
+    <div class="hidden lg:flex gap-4 flex-shrink-0">
+      <button class="bg-white p-3 rounded-full border border-gray-300 text-gray-800 hover:bg-gray-100 transition-colors shadow-md">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+        </svg>
+      </button>
+      <button class="bg-gray-800 p-3 rounded-full text-white hover:bg-gray-700 transition-colors shadow-md">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Product Cards Scroll Row -->
+  <div class="relative w-full max-w-6xl overflow-hidden">
+    <div class="flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory px-1 md:px-0 lg:grid lg:grid-cols-3">
+      
+      <!-- Card 1 -->
+      <div class="min-w-[85%] md:min-w-[50%] lg:min-w-0 bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col p-4 relative h-[550px] snap-start">
+        <div class="absolute inset-0 bg-cover bg-center rounded-xl" style="background-image: url('/img4.jpg');"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
+        <div class="flex flex-col justify-end flex-grow z-10 p-4">
+          <div class="flex items-end justify-between bg-[#fefff4] w-full px-2 py-3 rounded-xl">
+            <div>
+              <h3 class="text-sm font-semibold text-[#35433E]">ALYA SKIN CLEANSER.</h3>
+              <p class="text-sm text-[#35433E] opacity-40">FROM $29.99</p>
+            </div>
+            <button class="text-white p-3 rounded-xl bg-[#e7e8e0] hover:bg-[#35433E] transition-colors flex-shrink-0">
+              <img src="/media/SVG/cart-large-2-svgrepo-com.svg" alt="" class="h-4 w-4">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="min-w-[85%] md:min-w-[50%] lg:min-w-0 bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col p-4 relative h-[550px] snap-start">
+        <div class="absolute inset-0 bg-cover bg-center rounded-xl" style="background-image: url('/img5.jpg');"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
+        <div class="flex flex-col justify-end flex-grow z-10 p-4">
+          <div class="flex items-end justify-between bg-[#fefff4] w-full px-2 py-3 rounded-xl">
+            <div>
+              <h3 class="text-sm font-semibold text-[#35433E]">RITUAL OF SAKURA.</h3>
+              <p class="text-sm text-[#35433E] opacity-40">FROM $27.99</p>
+            </div>
+            <button class="text-white p-3 rounded-xl bg-[#e7e8e0] hover:bg-[#35433E] transition-colors flex-shrink-0">
+              <img src="/media/SVG/cart-large-2-svgrepo-com.svg" alt="" class="h-4 w-4">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="min-w-[85%] md:min-w-[50%] lg:min-w-0 bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col p-4 relative h-[550px] snap-start">
+        <div class="absolute inset-0 bg-cover bg-center rounded-xl" style="background-image: url('/img6.jpg');"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
+        <div class="flex flex-col justify-end flex-grow z-10 p-4">
+          <div class="flex items-end justify-between bg-[#fefff4] w-full px-2 py-3 rounded-xl">
+            <div>
+              <h3 class="text-sm font-semibold text-[#35433E]">THE BODY LOTION.</h3>
+              <p class="text-sm text-[#35433E] opacity-40">FROM $19.99</p>
+            </div>
+            <button class="text-white p-3 rounded-xl bg-[#e7e8e0] hover:bg-[#35433E] transition-colors flex-shrink-0">
+              <img src="/media/SVG/cart-large-2-svgrepo-com.svg" alt="" class="h-4 w-4">
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bottom-Center Arrows for small and medium screens -->
+  <div class="flex justify-center gap-4 mt-8 lg:hidden">
+    <button class="bg-white p-3 rounded-full border border-gray-300 text-gray-800 hover:bg-gray-100 transition-colors shadow-md">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+      </svg>
+    </button>
+    <button class="bg-gray-800 p-3 rounded-full text-white hover:bg-gray-700 transition-colors shadow-md">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+      </svg>
+    </button>
+  </div>
+
+</section>
+
+<section class="hidden lg:block w-full px-4 sm:px-6 md:px-8 py-6 bg-[#fefff4]">
+  <div class="max-w-7xl mx-auto mt-[5%] h-[1000px] rounded-3xl shadow-xl overflow-hidden relative bg-[url('/img7.jpg')] bg-cover bg-center">
+
+    <!-- Dark Overlay for readability -->
+    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60 rounded-3xl"></div>
+
+    <!-- Content on top -->
+    <div class="relative z-10 w-full h-full flex flex-col justify-end items-center text-center p-6 sm:p-8 md:p-12 pb-14">
+      <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal text-[#f3fff4] leading-tight mb-6">
+        Feel Beautiful Inside and Out <br class="hidden sm:inline"> with Every Product.
+      </h1>
+      <button class="bg-[#f3fff4] text-[#35433E] px-8 py-2 rounded-full font-medium text-lg shadow-lg hover:bg-gray-100 transition-colors">
+        Shop Now
+      </button>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="max-w-7xl w-full flex flex-col items-center bg-[#fefff4] relative">
+  <!-- Main Heading -->
+  <div class="mt-[8%]">
+    <h1 class="text-3xl sm:text-4xl md:text-5xl font-normal text-gray-900 text-center mb-8 sm:mb-12 leading-tight max-w-2xl">
+      Feel Beautiful Inside and Out <br> with Every Product.
+    </h1>
+  </div>
+
+  <!-- Navigation/Filter Buttons -->
+  <div class="flex flex-wrap justify-center gap-2 sm:gap-4 mb-10 sm:mb-16">
+    <button class="bg-[#fefff4] text-gray-800 text-sm sm:text-base px-5 py-2 rounded-full border border-[#35433E] font-light shadow-md">
+      NEW ARRIVAL
+    </button>
+    <button class="bg-[#fefff4] text-gray-800 text-sm sm:text-base px-5 py-2 rounded-full border border-[#35433E] font-light shadow-md">
+      CLEANSING
+    </button>
+    <button class="bg-[#fefff4] text-gray-800 text-sm sm:text-base px-5 py-2 rounded-full border border-[#35433E] font-light shadow-md">
+      ACNE FIGHTER
+    </button>
+    <button class="bg-[#fefff4] text-gray-800 text-sm sm:text-base px-5 py-2 rounded-full border border-[#35433E] font-light shadow-md">
+      ANTI AGING
+    </button>
+  </div>
+
+  <!-- Product Cards Container -->
+  <div class="relative w-full max-w-6xl">
+    <!-- Scrollable container for small/medium -->
+    <div id="cardTrack" class="flex md:grid md:grid-cols-3 gap-6 overflow-x-auto scroll-smooth px-4 md:px-0">
+      <!-- Card 1 -->
+      <div class="min-w-[80%] md:min-w-0 bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col p-4 relative h-[550px]">
+        <div class="absolute inset-0 bg-cover bg-center rounded-xl" style="background-image: url('/img4.jpg');"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
+        <div class="flex flex-col justify-end flex-grow z-10 p-4">
+          <div class="flex items-end justify-between bg-[#fefff4] w-full px-2 py-3 rounded-xl">
+            <div>
+              <h3 class="text-sm font-semibold text-[#35433E]">ALYA SKIN CLEANSER.</h3>
+              <p class="text-sm text-[#35433E] opacity-40">FROM $29.99</p>
+            </div>
+            <button class="text-white p-3 rounded-xl bg-[#e7e8e0] hover:bg-[#35433E] transition-colors flex-shrink-0">
+              <img src="/media/SVG/cart-large-2-svgrepo-com.svg" alt="" class="h-4 w-4">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="min-w-[80%] md:min-w-0 bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col p-4 relative h-[550px]">
+        <div class="absolute inset-0 bg-cover bg-center rounded-xl" style="background-image: url('/img5.jpg');"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
+        <div class="flex flex-col justify-end flex-grow z-10 p-4">
+          <div class="flex items-end justify-between bg-[#fefff4] w-full px-2 py-3 rounded-xl">
+            <div>
+              <h3 class="text-sm font-semibold text-[#35433E]">RITUAL OF SAKURA.</h3>
+              <p class="text-sm text-[#35433E] opacity-40">FROM $27.99</p>
+            </div>
+            <button class="text-white p-3 rounded-xl bg-[#e7e8e0] hover:bg-[#35433E] transition-colors flex-shrink-0">
+              <img src="/media/SVG/cart-large-2-svgrepo-com.svg" alt="" class="h-4 w-4">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="min-w-[80%] md:min-w-0 bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col p-4 relative h-[550px]">
+        <div class="absolute inset-0 bg-cover bg-center rounded-xl" style="background-image: url('/img6.jpg');"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
+        <div class="flex flex-col justify-end flex-grow z-10 p-4">
+          <div class="flex items-end justify-between bg-[#fefff4] w-full px-2 py-3 rounded-xl">
+            <div>
+              <h3 class="text-sm font-semibold text-[#35433E]">THE BODY LOTION.</h3>
+              <p class="text-sm text-[#35433E] opacity-40">FROM $19.99</p>
+            </div>
+            <button class="text-white p-3 rounded-xl bg-[#e7e8e0] hover:bg-[#35433E] transition-colors flex-shrink-0">
+              <img src="/media/SVG/cart-large-2-svgrepo-com.svg" alt="" class="h-4 w-4">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Arrows (only shown on small/medium) -->
+    <div class="md:hidden flex justify-center gap-8 mt-6">
+      <button onclick="scrollCards('left')">
+        <svg width="40" height="40" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M40 79.5C61.8152 79.5 79.5 61.8152 79.5 40C79.5 18.1848 61.8152 0.5 40 0.5C18.1848 0.5 0.5 18.1848 0.5 40C0.5 61.8152 18.1848 79.5 40 79.5Z" stroke="#2D3B36"/>
+        </svg>
+      </button>
+      <button onclick="scrollCards('right')">
+        <svg width="40" height="40" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80Z" fill="#2D3B36"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+
+<!--------------------------------------------->
+<section class="max-w-7xl w-full flex flex-col items-center bg-[#fefff4] relative">
+  <!-- Main Heading -->
+  <div class="mt-[8%]">
+    <h1 class="text-3xl sm:text-4xl md:text-5xl font-normal text-gray-900 text-center mb-8 sm:mb-12 leading-tight max-w-2xl">
+      Feel Beautiful Inside and Out <br> with Every Product.
+    </h1>
+  </div>
+
+  <!-- Navigation/Filter Buttons -->
+  <div class="flex flex-wrap justify-center gap-2 sm:gap-4 mb-10 sm:mb-16">
+    <button class="bg-[#fefff4] text-gray-800 text-sm sm:text-base px-5 py-2 rounded-full border border-[#35433E] font-light shadow-md">
+      NEW ARRIVAL
+    </button>
+    <button class="bg-[#fefff4] text-gray-800 text-sm sm:text-base px-5 py-2 rounded-full border border-[#35433E] font-light shadow-md">
+      CLEANSING
+    </button>
+    <button class="bg-[#fefff4] text-gray-800 text-sm sm:text-base px-5 py-2 rounded-full border border-[#35433E] font-light shadow-md">
+      ACNE FIGHTER
+    </button>
+    <button class="bg-[#fefff4] text-gray-800 text-sm sm:text-base px-5 py-2 rounded-full border border-[#35433E] font-light shadow-md">
+      ANTI AGING
+    </button>
+  </div>
+
+  <!-- Product Cards Container -->
+  <div class="relative w-full max-w-6xl">
+    <!-- Scrollable container for small/medium -->
+    <div id="cardTrack" class="flex md:grid md:grid-cols-3 gap-6 overflow-x-auto scroll-smooth px-4 md:px-0">
+      <!-- Card 1 -->
+      <div class="min-w-[80%] md:min-w-0 bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col p-4 relative h-[550px]">
+        <div class="absolute inset-0 bg-cover bg-center rounded-xl" style="background-image: url('/img4.jpg');"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
+        <div class="flex flex-col justify-end flex-grow z-10 p-4">
+          <div class="flex items-end justify-between bg-[#fefff4] w-full px-2 py-3 rounded-xl">
+            <div>
+              <h3 class="text-sm font-semibold text-[#35433E]">ALYA SKIN CLEANSER.</h3>
+              <p class="text-sm text-[#35433E] opacity-40">FROM $29.99</p>
+            </div>
+            <button class="text-white p-3 rounded-xl bg-[#e7e8e0] hover:bg-[#35433E] transition-colors flex-shrink-0">
+              <img src="/media/SVG/cart-large-2-svgrepo-com.svg" alt="" class="h-4 w-4">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="min-w-[80%] md:min-w-0 bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col p-4 relative h-[550px]">
+        <div class="absolute inset-0 bg-cover bg-center rounded-xl" style="background-image: url('/img5.jpg');"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
+        <div class="flex flex-col justify-end flex-grow z-10 p-4">
+          <div class="flex items-end justify-between bg-[#fefff4] w-full px-2 py-3 rounded-xl">
+            <div>
+              <h3 class="text-sm font-semibold text-[#35433E]">RITUAL OF SAKURA.</h3>
+              <p class="text-sm text-[#35433E] opacity-40">FROM $27.99</p>
+            </div>
+            <button class="text-white p-3 rounded-xl bg-[#e7e8e0] hover:bg-[#35433E] transition-colors flex-shrink-0">
+              <img src="/media/SVG/cart-large-2-svgrepo-com.svg" alt="" class="h-4 w-4">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="min-w-[80%] md:min-w-0 bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col p-4 relative h-[550px]">
+        <div class="absolute inset-0 bg-cover bg-center rounded-xl" style="background-image: url('/img6.jpg');"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
+        <div class="flex flex-col justify-end flex-grow z-10 p-4">
+          <div class="flex items-end justify-between bg-[#fefff4] w-full px-2 py-3 rounded-xl">
+            <div>
+              <h3 class="text-sm font-semibold text-[#35433E]">THE BODY LOTION.</h3>
+              <p class="text-sm text-[#35433E] opacity-40">FROM $19.99</p>
+            </div>
+            <button class="text-white p-3 rounded-xl bg-[#e7e8e0] hover:bg-[#35433E] transition-colors flex-shrink-0">
+              <img src="/media/SVG/cart-large-2-svgrepo-com.svg" alt="" class="h-4 w-4">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Arrows (only shown on small/medium) -->
+    <div class="md:hidden flex justify-center gap-8 mt-6">
+      <button onclick="scrollCards('left')">
+        <svg width="40" height="40" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M40 79.5C61.8152 79.5 79.5 61.8152 79.5 40C79.5 18.1848 61.8152 0.5 40 0.5C18.1848 0.5 0.5 18.1848 0.5 40C0.5 61.8152 18.1848 79.5 40 79.5Z" stroke="#2D3B36"/>
+        </svg>
+      </button>
+      <button onclick="scrollCards('right')">
+        <svg width="40" height="40" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80Z" fill="#2D3B36"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Footer Section -->
+  <footer class="bg-[#2d3b36] text-[#e7e8e0] px-6 pt-20 pb-48 relative">
+   <div class="relative z-10 max-w-7xl mx-auto flex flex-col md:flex-row justify-between space-y-10 md:space-y-0">
+  <!-- Left -->
+  <div class="space-y-40">
+    <h2 class="text-5xl font-normal leading-snug">
+      Join The Skincare <br />Community Now.
+    </h2>
+    <ul class="flex space-x-6 text-sm">
+      <li>Facebook</li>
+      <li>Instagram</li>
+      <li>YouTube</li>
+    </ul>
+  </div>
+
+  <!-- Right -->
+  <div class="space-y-40">
+    <div class="mt-9">
+      <p class="text-2xl font-normal space-y-10">Get in Touch</p>
+      <p class="text-5xl font-normal leading-snug">contact.skincare.com</p>
+    </div>
+    <ul class="flex space-x-6 text-sm">
+      <li>Terms of Service</li>
+      <li>Privacy Policy</li>
+      <li>Cookies Policy</li>
+    </ul>
+  </div>
+</div>
+
+    <!-- Watermark BG -->
+<!-- Watermark BG -->
+ <div class="absolute bottom-[20px] left-0 w-full text-left text-[#35433E] opacity-100 z-0
+    font-extrabold uppercase leading-[1] tracking-[.05em] mt-10 md:mt-0
+    lg:top-auto lg:bottom-0 lg:left-0 lg:translate-x-0 overflow-hidden pointer-events-none">
+  
+  <span class="block text-[#35433E] font-bold  text-[clamp(7rem,22vw,25rem)] whitespace-nowrap">
+    SKINCARE
+  </span>
+</div>
+
+
+
+
+  </footer>
+
+  
+<!-- Optional Scroll Script -->
+<script>
+  function scrollCards(direction) {
+    const container = document.getElementById('cardTrack');
+    const scrollAmount = 300;
+
+    container.scrollBy({
+      left: direction === 'left' ? -scrollAmount : scrollAmount,
+      behavior: 'smooth'
+    });
+  }
+</script>
+  <script src="react.js"></script>
+</body>
+</html>
